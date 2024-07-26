@@ -273,7 +273,7 @@ export default function App() {
           />
         </div>
 
-        <p className="font-semibold">A Kevin Rebakure Production</p>
+        <p className={`${dark && 'text-white'} font-semibold`}>A Kevin Rebakure Production</p>
       </div>
     </>
   )
